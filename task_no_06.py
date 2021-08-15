@@ -179,7 +179,7 @@ try:
     driver.find_element_by_name("Email").send_keys("ragulraghavan75066@gmail.com")
     time.sleep(5)
     a = Select(driver.find_element_by_class_name("form-control"))
-    a.select_by_visible_text("Student")
+    a.select_by_visible_text("Intern")
     time.sleep(5)
     driver.find_element_by_class_name("button-w3layouts").click()
     time.sleep(5)
