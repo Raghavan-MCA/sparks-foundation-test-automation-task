@@ -174,7 +174,7 @@ try:
     print(" Going to verify the form ")
     driver.find_element_by_link_text("Why Join Us").click()
     time.sleep(5)
-    driver.find_element_by_name("Name").send_keys("RAGUL")
+    driver.find_element_by_name("Name").send_keys("RAGHAVAN")
     time.sleep(5)
     driver.find_element_by_name("Email").send_keys("ragulraghavan75066@gmail.com")
     time.sleep(5)
